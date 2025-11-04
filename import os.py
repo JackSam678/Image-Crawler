@@ -18,7 +18,7 @@
 # CONVERTED_IMG_DIR = os.path.join(SAVE_DIR, "converted_images")
 # MIN_IMG_SIZE = 30000
 # LOAD_TIMES = 5
-# GECKODRIVER_PATH = "/home/btl/桌面/PC_Test/geckodriver-v0.36.0-linux64/geckodriver"
+# GECKODRIVER_PATH = "../geckodriver-v0.36.0-linux64/geckodriver"
 
 # # 初始化目录
 # def init_dirs():
@@ -253,9 +253,9 @@ BROWSER = "edge"  # 默认用火狐
 
 # 驱动路径配置（请根据实际路径修改）
 DRIVER_PATHS = {
-    "chrome": "/home/btl/桌面/PC_Test/chromedriver",  # 谷歌驱动路径
-    "firefox": "/home/btl/桌面/PC_Test/Drive location/geckodriver-v0.36.0-linux64/geckodriver",  # 火狐驱动路径
-    "edge": "/home/btl/桌面/PC_Test/Drive location/edgedriver_linux64/msedgedriver"  # Edge驱动路径
+    "chrome": "../chromedriver",  # 谷歌驱动路径
+    "firefox": "../geckodriver",  # 火狐驱动路径
+    "edge": "../msedgedriver"  # Edge驱动路径
 }
 
 # 爬取目标URL（每次运行可修改）
