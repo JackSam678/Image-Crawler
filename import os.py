@@ -227,7 +227,7 @@
 # if __name__ == "__main__":
 #     main()
 
-
+###################################################################################################################
 
 #优化后的代码
 import os
@@ -249,17 +249,17 @@ from selenium.webdriver.edge.service import Service as EdgeService
 
 # -------------------------- 配置参数 --------------------------
 # 浏览器选择："chrome" / "firefox" / "edge"（自动检测可用驱动）
-BROWSER = "firefox"  # 默认用火狐
+BROWSER = "edge"  # 默认用火狐
 
 # 驱动路径配置（请根据实际路径修改）
 DRIVER_PATHS = {
     "chrome": "/home/btl/桌面/PC_Test/chromedriver",  # 谷歌驱动路径
-    "firefox": "/home/btl/桌面/PC_Test/geckodriver-v0.36.0-linux64/geckodriver",  # 火狐驱动路径
-    "edge": "/home/btl/桌面/PC_Test/msedgedriver"  # Edge驱动路径
+    "firefox": "/home/btl/桌面/PC_Test/Drive location/geckodriver-v0.36.0-linux64/geckodriver",  # 火狐驱动路径
+    "edge": "/home/btl/桌面/PC_Test/Drive location/edgedriver_linux64/msedgedriver"  # Edge驱动路径
 }
 
 # 爬取目标URL（每次运行可修改）
-URL = "https://www.yaash.cn/desk-wallpaper/page/2/?orderby=views"
+URL = "https://www.yaash.cn/desk-wallpaper/page/4/"
 
 # 其他配置
 MIN_IMG_SIZE = 30000  # 最小图片字节数
