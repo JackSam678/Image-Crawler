@@ -259,7 +259,7 @@ DRIVER_PATHS = {
 }
 
 # 爬取目标URL（每次运行可修改）
-URL = "https://www.yaash.cn/desk-wallpaper/page/4/"
+URL = ""
 
 # 其他配置
 MIN_IMG_SIZE = 30000  # 最小图片字节数

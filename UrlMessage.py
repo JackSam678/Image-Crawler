@@ -21,16 +21,16 @@ from selenium.common.exceptions import TimeoutException
 
 # -------------------------- 配置参数 --------------------------
 # 目标网页URL（替换为任意网页）
-TARGET_URL = "https://blog.csdn.net/CSDN_430422/article/details/134218025"
+TARGET_URL = ""
 
 # 浏览器配置（chrome/firefox/edge）
 BROWSER = "edge"
 
 # 驱动路径（根据实际存放位置修改）
 DRIVER_PATHS = {
-    "chrome": "/home/btl/桌面/PC_Test/Drive location/chromedriver-linux64/chromedriver",
-    "firefox": "/home/btl/桌面/PC_Test/Drive location/geckodriver-v0.36.0-linux64/geckodriver",
-    "edge": "/home/btl/桌面/PC_Test/Drive location/edgedriver_linux64/msedgedriver"
+    "chrome": "/Image Crawler/Drive location/chromedriver-linux64/chromedriver",
+    "firefox": "/Image Crawler/Drive location/geckodriver-v0.36.0-linux64/geckodriver",
+    "edge": "/Image Crawler/Drive location/edgedriver_linux64/msedgedriver"
 }
 
 # 爬取配置
